@@ -87,7 +87,5 @@ try(() ->userNotFound(payload))
 			<db:input-parameters ><![CDATA[#[vars.inputParams]]]></db:input-parameters>
 		</db:delete>
 	</sub-flow>
-	<flow name="utilFlow" doc:id="bd410dda-b6f4-4427-8345-35cee506f49f" >
-		<logger level="INFO" doc:name="Production " doc:id="8449027c-b3ba-4116-8b72-37bd5085e295" message="Production " category="Production "/>
-	</flow>
+
 </mule>
